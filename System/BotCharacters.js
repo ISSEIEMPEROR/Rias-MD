@@ -289,3 +289,14 @@ global.charID19 = {
   botImage5 : "https://images6.alphacoders.com/124/1247977.jpg",
   botImage6 : "https://images2.alphacoders.com/125/1251795.jpg",
 }
+
+global.charID20 = {
+  botName : "Rias Gremory",
+  botVideo : "https://graph.org/file/8817be3a15ed5c02debf7.mp4",
+  botImage1 : "https://images4.alphacoders.com/849/849720.jpg",
+  botImage2 : "https://images4.alphacoders.com/855/855535.jpg",
+  botImage3 : "https://images2.alphacoders.com/814/814604.jpg",
+  botImage4 : "https://images6.alphacoders.com/786/786948.jpg",
+  botImage5 : "https://images4.alphacoders.com/857/857390.jpg",
+  botImage6 : "https://images3.alphacoders.com/786/786947.jpg",
+}
