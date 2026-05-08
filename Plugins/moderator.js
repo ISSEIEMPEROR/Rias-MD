@@ -451,11 +451,11 @@ export default {
         }
 
         const intinput = parseInt(text);
-        if (isNaN(intinput) || intinput < 0 || intinput > 19) {
+        if (isNaN(intinput) || intinput < 0 || intinput > 20) {
           await doReact("❌");
           return Atlas.sendMessage(
             m.from,
-            { text: `Please enter a character number between 0-19 to set !` },
+            { text: `Please enter a character number between 0-20 to set !` },
             { quoted: m },
           );
         }
@@ -480,6 +480,7 @@ export default {
           "Yor",
           "Shinbou",
           "Eiko",
+          "Rias Gremory",
         ];
         const botLogos = [
           "https://wallpapercave.com/wp/wp5924545.jpg",
@@ -502,6 +503,7 @@ export default {
           "https://images7.alphacoders.com/123/1236729.jpg",
           "https://wallpapercave.com/wp/wp4650481.jpg",
           "https://images8.alphacoders.com/122/1229829.jpg",
+          "https://images4.alphacoders.com/849/849720.jpg",
         ];
 
         const checkChar = await getChar();
@@ -553,8 +555,8 @@ export default {
           "Yor",
           "Shinbou",
           "Eiko",
-        ];
-        let charListMenu = `  🎀  *${botName} Characters*  🎀\n\n`;
+          "Rias Gremory",
+        ]; = `  🎀  *${botName} Characters*  🎀\n\n`;
         for (let i = 0; i < botNames.length; i++) {
           charListMenu += `  [ ${i} ] :  *${botNames[i]}*\n`;
         }
